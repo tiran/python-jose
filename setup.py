@@ -42,7 +42,7 @@ legacy_backend_requires = ['ecdsa <0.15', 'rsa'] + pyasn1
 install_requires = ['six <2.0']
 
 # TODO: work this into the extras selection instead.
-install_requires += legacy_backend_requires
+# install_requires += legacy_backend_requires
 
 
 setup(
